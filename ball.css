@@ -316,7 +316,7 @@ right: 600px;
     left: 1280px;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:940px){
     .circle{
        position:fixed ;
        height: 230px;
