@@ -1,0 +1,724 @@
+*{
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+/* .header{
+    display: flex;
+    position: relative;
+    background-color: rgb(226, 43, 186);
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.navbtn span{
+    display: block;
+    background-color: black;
+    width: 20px;
+    height: 2px;
+    margin: 3px 0;
+    cursor: pointer;
+}
+.nav{
+display: flex;
+gap: 10px;
+}
+.navbarbtn{
+    color: red;
+    box-shadow: 0 0 5px;
+    padding: 2px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.navbar{
+color: white;
+font-weight: bolder;
+}
+.navbtn{
+    background: none;
+    border: none;
+} */
+ body{
+    overflow: hidden;
+    height: 100vh;
+    background: green;
+    border: 10px solid white;
+ }
+.circle{
+    border: 10px solid white;
+    position:fixed ;
+    background-color: white;
+    border-radius: 100%;
+    height: 450px;
+    width: 450px;
+    top: 100px;
+    left:450px;
+    box-shadow: 0 0 20px white;
+    background: none;
+
+} 
+.centreline{
+    color: white;
+    box-shadow: 0 0 20px white;
+    height: 100vh;
+    width: 670px;
+    
+    
+
+}
+.post1{
+    position: fixed;
+    height: 400px;
+    width: 130px;
+    top: 130px;
+    box-shadow: 0 0 20px white;
+    border-radius:0px 10px 10px 0px;
+    border: 10px solid white;
+}
+.post2{
+    position: fixed;
+    height: 400px;
+    width: 130px;
+    top: 130px;
+    box-shadow: 0 0 20px white;
+    border-radius:10px 0px 0px 10px;
+    right: 17px;
+    border: 10px solid white; 
+}
+.corner1{
+    position: fixed; 
+    color: white;
+       width: 52px;
+       height: 50px;
+       box-shadow: 0 0 20px;
+       border-radius: 100%;
+       left: 1305px;
+       top: 10px;
+       border: 5px solid white;  
+}
+.corner2{
+    border: 5px solid white;
+    position: fixed; color: white;
+   width: 52px;
+   height: 50px;
+   box-shadow: 0 0 20px;
+   border-radius: 100%;
+   right: 1305px;
+   top: 10px; 
+}
+.corner3{
+    border: 5px solid white;
+    position: fixed; 
+color: white;
+   width: 52px;
+   height: 50px;
+   box-shadow: 0 0 20px;
+   border-radius: 100%;
+   left: 1305px;
+   bottom: 0px; 
+}
+.corner4{
+    border: 5px solid white;
+    position: fixed; 
+color: white;
+   width: 52px;
+   height: 50px;
+   box-shadow: 0 0 20px;
+   border-radius: 100%;
+   right: 1305px;
+   bottom: 0px ;
+}
+.img1{
+    
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 50px;
+    left: 120px;
+}
+.img2{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+top: 200px;
+left: 200px;
+}
+.img3{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 370px;
+    left: 200px;
+}
+.img4{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    bottom:50px ;
+    left: 120px;
+}
+.img5{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:280px ;
+    left: 290px;
+}
+.img6{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:280px ;
+    left: 420px
+}
+.img7{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 50px;
+    left: 420px;
+} 
+.img8{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    bottom:50px ;
+    left: 420px; 
+}
+.img9{
+  
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+top: 200px;
+left: 600px;  
+}   
+.img10{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 370px;
+    left: 600px
+}
+.img11{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 285px;
+    left: 30px;
+}
+
+.img12{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 50px;
+    right:120px;
+
+}
+.img13{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+top: 200px;
+right: 200px; 
+}
+.img14{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 370px;
+    right: 200px;  
+}
+.img15{
+   
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    bottom:50px ;
+    right: 120px; 
+}
+.img16{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:280px ;
+    right: 290px;
+}
+.img17{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:280px ;
+    right: 420px
+}
+.img18{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    bottom:50px ;
+    right: 420px; 
+}
+.img19{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:50px ;
+    right: 470px; 
+}
+.img20{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+top: 200px;
+right: 600px;    
+}
+.img21{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 370px;
+    right: 600px 
+}
+.img22{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 285px;
+    left: 1280px;
+}
+
+@media screen and (max-width:768px){
+    .circle{
+       position:fixed ;
+       height: 230px;
+       border-radius: 100%;
+       width: 230px;
+       top: 200px;
+       left:190px;
+       box-shadow: 0 0 20px white;
+   }   
+   .centreline{
+    color: white;
+    box-shadow: 0 0 20px white;
+    height: 100vh;
+    width: 280px;
+ }
+   .post1{
+       position: fixed;
+       height: 300px;
+       width: 80px;
+       top: 150px;
+       box-shadow: 0 0 20px white;
+       border-radius:0px 10px 10px 0px;
+   }
+   
+   .post2{
+       position: fixed;
+       height: 300px;
+       width: 80px;
+       top: 150px;
+       box-shadow: 0 0 20px white;
+       border-radius:10px 0px 0px 10px;
+       background: none;
+       /* right: 0px; */
+   }
+   .img1{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    top: 100px;
+    left: 100px;
+}
+   .img2{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+   top: 200px;
+   left: 130px;
+   }
+   .img3{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 370px;
+       left: 130px;
+   }
+   .img4{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       bottom:100px ;
+       left: 100px;
+   }
+   .img5{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top:280px ;
+       left: 160px
+   }
+   .img6{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top:280px ;
+       left: 220px
+   }
+   .img7{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 50px;
+       left: 200px;
+   } 
+   .img8{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       bottom:50px ;
+       left: 200px; 
+   }
+   .img9{
+     
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+   top: 200px;
+   left: 270px;  
+   }   
+   .img10{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 370px;
+       left: 270px
+   }
+   .img11{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 285px;
+       left: 20px;
+   }
+   
+   .img12{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 100px;
+       right:120px;
+   
+   }
+   .img13{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+   top: 200px;
+   right: 130px; 
+   }
+   .img14{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 370px;
+       right: 130px;  
+   }
+   .img15{
+      
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       bottom:100px ;
+       right: 100px; 
+   }
+   .img16{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top:280px ;
+       right: 160px;
+   }
+   .img17{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top:280px ;
+       right: 220px
+   }
+   .img18{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       bottom:50px ;
+       right: 220px; 
+   }
+   .img19{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top:50px ;
+       right: 220px; 
+   }
+   .img20{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+   top: 200px;
+   right: 280px;    
+   }
+   .img21{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 370px;
+       right: 280px 
+   }
+   .img22{
+       position: fixed;
+       height: 30px;
+       width: 30px;
+       border-radius: 100%;
+       top: 285px;
+       left: 570px;
+   }
+   
+   .corner1{
+       position: fixed; 
+    color: white;
+       width: 30px;
+       height: 30px;
+       box-shadow: 0 0 20px;
+       border-radius: 100%;
+       left: 570px;
+       top: 17px;
+    }
+    .corner2{
+        position: fixed; 
+    color: white;
+       width: 30px;
+       height: 30px;
+       box-shadow: 0 0 20px;
+       border-radius: 100%;
+       right: 570px;
+       top: 14px
+    }
+    .corner3{
+        position: fixed; 
+    color: white;
+       width: 30px;
+       height: 30px;
+       box-shadow: 0 0 20px;
+       border-radius: 100%;
+       left: 570px;
+       bottom: 0px
+    }
+    .corner4{
+        position: fixed; 
+    color: white;
+       width: 30px;
+       height: 30px;
+       box-shadow: 0 0 20px;
+       border-radius: 100%;
+       right: 570px;
+       bottom: 0px
+    }
+    }
+    @media screen and (max-width:480px){
+        .circle{
+            position:fixed;
+            height: 230px;
+            width: 150px;
+            left:145px;
+            top: 140px;
+        }
+        .centreline{
+            width: 200px;
+        }
+        .post1{
+            width: 40px;
+            top: 110px;
+        
+        }
+        
+        .post2{
+            width: 40px;
+            top: 110px;
+        
+        }
+        .img1{
+            left: 80px;
+        }
+        .img2{
+        left: 80px;
+        }
+        .img3{
+            left: 80px;
+        }
+        .img4{
+            left: 80px;
+        }
+        .img5{
+            left: 80px
+        }
+        .img6{
+            left: 150px
+        }
+        .img7{
+            left: 150px;
+        } 
+        .img8{
+            left: 150px; 
+        }
+        .img9{
+          
+            position: fixed;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+        top: 200px;
+        left: 150px;  
+        }   
+        .img10{
+            position: fixed;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            top: 370px;
+            left: 150px
+        }
+        .img11{
+            top: 245px;
+            left: 20px;
+        }
+        
+        .img12{
+            right:80px;
+        
+        }
+        .img13{
+        right: 80px; 
+        }
+        .img14{
+            right: 80px;  
+        }
+        .img15{
+           
+            right: 80px; 
+        }
+        .img16{
+            right: 80px;
+        }
+        .img17{
+            right: 140px
+        }
+        .img18{
+            right: 140px; 
+        }
+        .img19{
+            right: 180px; 
+            top: 260px;
+        }
+        .img20{
+        right: 170px;    
+        }
+        .img21{
+            right: 180px 
+        }
+        .img22{
+            position: fixed;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            top: 245px;
+            left: 385px;
+        }
+        
+        .corner1{
+            left: 10px;
+         }
+         .corner2{
+            right: 5px;
+         }
+         .corner3{
+            left: 10px;
+         }
+         .corner4{
+            right: 5px;
+         
+         }
+         .ball{
+            width: 2%;
+         }
+        }   
+        
+        
+     
+    .ball{
+        position: fixed;
+        top: 10px;
+        bottom: 400px;
+        right: 400px;
+        background-color: white;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        transition: all 1000ms linear;
+    }
+    
+    
+       
+    
+    
+    
+    
+ 
