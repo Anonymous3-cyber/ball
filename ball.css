@@ -316,27 +316,27 @@ right: 600px;
     left: 1280px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:950px){
     .circle{
        position:fixed ;
        height: 230px;
        border-radius: 100%;
        width: 230px;
-       top: 200px;
-       left:190px;
+       top: 100px;
+       left:370px;
        box-shadow: 0 0 20px white;
    }   
    .centreline{
     color: white;
     box-shadow: 0 0 20px white;
     height: 100vh;
-    width: 280px;
+    width: 470px;
  }
    .post1{
        position: fixed;
        height: 300px;
        width: 80px;
-       top: 150px;
+       top: 70px;
        box-shadow: 0 0 20px white;
        border-radius:0px 10px 10px 0px;
    }
@@ -345,7 +345,7 @@ right: 600px;
        position: fixed;
        height: 300px;
        width: 80px;
-       top: 150px;
+       top: 70px;
        box-shadow: 0 0 20px white;
        border-radius:10px 0px 0px 10px;
        background: none;
@@ -357,7 +357,7 @@ right: 600px;
     width: 30px;
     border-radius: 100%;
     top: 100px;
-    left: 100px;
+    left: 130px;
 }
    .img2{
        position: fixed;
@@ -381,39 +381,39 @@ right: 600px;
        width: 30px;
        border-radius: 100%;
        bottom:100px ;
-       left: 100px;
+       left: 130px;
    }
    .img5{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top:280px ;
-       left: 160px
+       top:210px ;
+       left: 240px
    }
    .img6{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top:280px ;
-       left: 220px
+       top:220px ;
+       left: 320px
    }
    .img7{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top: 50px;
-       left: 200px;
+       top: 100px;
+       left: 320px;
    } 
    .img8{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       bottom:50px ;
-       left: 200px; 
+       bottom:150px ;
+       left: 450px; 
    }
    .img9{
      
@@ -421,8 +421,8 @@ right: 600px;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-   top: 200px;
-   left: 270px;  
+   top: 130px;
+   left: 450px;  
    }   
    .img10{
        position: fixed;
@@ -430,14 +430,14 @@ right: 600px;
        width: 30px;
        border-radius: 100%;
        top: 370px;
-       left: 270px
+       left: 320px
    }
    .img11{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top: 285px;
+       top: 200px;
        left: 20px;
    }
    
@@ -447,7 +447,7 @@ right: 600px;
        width: 30px;
        border-radius: 100%;
        top: 100px;
-       right:120px;
+       right:150px;
    
    }
    .img13{
@@ -455,8 +455,8 @@ right: 600px;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-   top: 200px;
-   right: 130px; 
+   top: 280px;
+   right: 150px; 
    }
    .img14{
        position: fixed;
@@ -472,24 +472,24 @@ right: 600px;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       bottom:100px ;
-       right: 100px; 
+       bottom:220px ;
+       right: 150px; 
    }
    .img16{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top:280px ;
-       right: 160px;
+       top:100px ;
+       right: 240px;
    }
    .img17{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top:280px ;
-       right: 220px
+       top:220px ;
+       right: 240px
    }
    .img18{
        position: fixed;
@@ -497,39 +497,39 @@ right: 600px;
        width: 30px;
        border-radius: 100%;
        bottom:50px ;
-       right: 220px; 
+       right: 240px; 
    }
    .img19{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top:50px ;
-       right: 220px; 
+       top:220px ;
+       right: 380px; 
    }
    .img20{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-   top: 200px;
-   right: 280px;    
+   top: 80px;
+   right: 380px;    
    }
    .img21{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top: 370px;
-       right: 280px 
+       top: 340px;
+       right: 380px ;
    }
    .img22{
        position: fixed;
        height: 30px;
        width: 30px;
        border-radius: 100%;
-       top: 285px;
-       left: 570px;
+       top: 200px;
+       left: 870px;
    }
    
    .corner1{
@@ -539,7 +539,7 @@ right: 600px;
        height: 30px;
        box-shadow: 0 0 20px;
        border-radius: 100%;
-       left: 570px;
+       left: 11px;
        top: 17px;
     }
     .corner2{
@@ -549,7 +549,7 @@ right: 600px;
        height: 30px;
        box-shadow: 0 0 20px;
        border-radius: 100%;
-       right: 570px;
+       right: 11px;
        top: 14px
     }
     .corner3{
@@ -559,7 +559,7 @@ right: 600px;
        height: 30px;
        box-shadow: 0 0 20px;
        border-radius: 100%;
-       left: 570px;
+       left: 11px;
        bottom: 0px
     }
     .corner4{
@@ -569,15 +569,15 @@ right: 600px;
        height: 30px;
        box-shadow: 0 0 20px;
        border-radius: 100%;
-       right: 570px;
-       bottom: 0px
+       right: 11px;
+       bottom: 0px;
     }
     }
-    @media screen and (max-width:480px){
+    @media screen and (max-width:900px){
         .circle{
             position:fixed;
-            height: 230px;
-            width: 150px;
+            /* height: 80px; */
+            /* width: 20%; */
             left:145px;
             top: 140px;
         }
@@ -709,8 +709,8 @@ right: 600px;
         bottom: 400px;
         right: 400px;
         background-color: white;
-        height: 25px;
-        width: 25px;
+        height: 15px;
+        width: 2%;
         border-radius: 100%;
         transition: all 1000ms linear;
     }
