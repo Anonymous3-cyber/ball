@@ -316,7 +316,7 @@ right: 600px;
     left: 1280px;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:850px){
     .circle{
        position:fixed ;
        height: 230px;
@@ -573,134 +573,7 @@ right: 600px;
        bottom: 0px;
     }
     }
-    @media screen and (max-width:900px){
-        .circle{
-            position:fixed;
-            /* height: 80px; */
-            /* width: 20%; */
-            left:145px;
-            top: 140px;
-        }
-        .centreline{
-            width: 200px;
-        }
-        .post1{
-            width: 40px;
-            top: 110px;
-        
-        }
-        
-        .post2{
-            width: 40px;
-            top: 110px;
-        
-        }
-        .img1{
-            left: 80px;
-        }
-        .img2{
-        left: 80px;
-        }
-        .img3{
-            left: 80px;
-        }
-        .img4{
-            left: 80px;
-        }
-        .img5{
-            left: 80px
-        }
-        .img6{
-            left: 150px
-        }
-        .img7{
-            left: 150px;
-        } 
-        .img8{
-            left: 150px; 
-        }
-        .img9{
-          
-            position: fixed;
-            height: 30px;
-            width: 30px;
-            border-radius: 100%;
-        top: 200px;
-        left: 150px;  
-        }   
-        .img10{
-            position: fixed;
-            height: 30px;
-            width: 30px;
-            border-radius: 100%;
-            top: 370px;
-            left: 150px
-        }
-        .img11{
-            top: 245px;
-            left: 20px;
-        }
-        
-        .img12{
-            right:80px;
-        
-        }
-        .img13{
-        right: 80px; 
-        }
-        .img14{
-            right: 80px;  
-        }
-        .img15{
-           
-            right: 80px; 
-        }
-        .img16{
-            right: 80px;
-        }
-        .img17{
-            right: 140px
-        }
-        .img18{
-            right: 140px; 
-        }
-        .img19{
-            right: 180px; 
-            top: 260px;
-        }
-        .img20{
-        right: 170px;    
-        }
-        .img21{
-            right: 180px 
-        }
-        .img22{
-            position: fixed;
-            height: 30px;
-            width: 30px;
-            border-radius: 100%;
-            top: 245px;
-            left: 385px;
-        }
-        
-        .corner1{
-            left: 10px;
-         }
-         .corner2{
-            right: 5px;
-         }
-         .corner3{
-            left: 10px;
-         }
-         .corner4{
-            right: 5px;
-         
-         }
-         .ball{
-            width: 2%;
-         }
-        }   
-        
+    
         
      
     .ball{
